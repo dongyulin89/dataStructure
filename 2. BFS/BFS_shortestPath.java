@@ -22,8 +22,3 @@ int BFS(Node root, Node target) {
     }
     return -1;          // there is no path from root to target
 }
-
-/**
-* 在特定问题中执行 BFS 之前确定结点和边缘非常重要。
-* 通常，结点将是实际结点或是状态，而边缘将是实际边缘或可能的转换。
-/
